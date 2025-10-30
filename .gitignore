@@ -1,0 +1,27 @@
+# Virtual Environment
+WPvenv/
+venv/
+.env/
+
+# Data Files
+Backup_Dataset/
+Backup_Dataset/*.csv
+
+# Saved Models and Notebooks
+notebooks/
+*.ipynb
+models/random_forest_multi_weather.pkl
+
+# But keep those in models directory
+!models/xgboost_weather.pkl
+
+# Python cache and logs
+__pycache__/
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode / PyCharm
+.vscode/
