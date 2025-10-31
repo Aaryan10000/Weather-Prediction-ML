@@ -11,9 +11,11 @@ Backup_Dataset/*.csv
 notebooks/
 *.ipynb
 models/random_forest_multi_weather.pkl
+main.py
+Project_Thoughts.txt
 
 # But keep those in models directory
-!models/xgboost_weather.pkl
+!models/random_forest_weather.pkl
 
 # Python cache and logs
 __pycache__/
