@@ -11,7 +11,7 @@ import joblib
 
 st.set_page_config(layout="wide")
 
-API_KEY = "60c75cad07fdda2ae13c40d8d6dd3241"
+API_KEY = "ENTER_YOUR API_KEY_HERE"
 CITY = "Delhi"
 MODEL_PATH = "models/random_forest_weather.pkl"
 Y_COLS = ['tempC', 'humidity', 'precipMM', 'cloudcover']

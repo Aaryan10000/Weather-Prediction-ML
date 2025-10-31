@@ -84,7 +84,11 @@ cd Weather-Prediction-ML
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Run the Streamlit app
+# 4. Get personal API key
+goto https://openweathermap.org/api and create free account.
+Get basic api key and replace it in the pages/*.py files.
+
+# 5. Run the Streamlit app
 streamlit run Landing_Page.py
 ```
 
